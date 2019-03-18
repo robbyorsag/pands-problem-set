@@ -8,4 +8,5 @@ with open('moby-dick.txt', 'r') as f:
     for line in f: # for every line in the file
         count+=1 # count +1
         if count % 2 == 0: # if the remainder is 0
-            print(line) # print line where the remainder is 0
+            print(line) 
+            # print line where the remainder is 0
