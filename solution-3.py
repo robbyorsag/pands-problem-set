@@ -1,7 +1,7 @@
 # Solution to problem number 3
 
 for num in range (1000,(10000+1)):
-    # 10000+1 - because "num" function
+    # 10000+1 - because "range" function
     # does not include the last number and
     # we need range from 1000 to 10000
     if num % 12 == 0:
