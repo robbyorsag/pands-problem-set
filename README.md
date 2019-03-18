@@ -1,5 +1,5 @@
 # pands-problem-set
-#Solution to problem 1 :
+# Solution to problem 1 
  Entering a positive integer
 
  Setting the beggining value from which Python will start to add numbers in the range from 0 up to x+1, to zero 
@@ -12,7 +12,7 @@ i.e. sum = sum(0)+x(in the range from 0 to (x+1))
  prints the final value of sum
 
 
-#Solution to problem 2 :
+# Solution to problem 2 
 
  First we need to import date and time with import datetime function so that Python knows how to calculate it
 
