@@ -1,4 +1,4 @@
-# Solution to problem number 3
+# Solution to problem number 3:
 
 for num in range (1000,(10000+1)):
     # 10000+1 - because "range" function
