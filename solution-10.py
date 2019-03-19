@@ -9,8 +9,8 @@ import matplotlib.pyplot as pyplot
 
 x = numpy.linspace(0,4,100)
 # linspace function in numpy allows us to
-# pick as many point we want in a certain range
-# in this case that is 100 points in 
+# pick as many points we want in a certain range
+# in this case that is a 100 points in 
 # a range from 0 to 4
 pyplot.plot(x,x, label = "x")
 pyplot.plot(x,x**2,label = "x^2")
