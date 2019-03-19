@@ -59,7 +59,7 @@ If it is it prints out that number with a statement that its not a prime number,
 using the "else" function, it is determined which number is a prime and is printed on the screen
 
 
-# Solution to problemm 6
+# Solution to problem 6
 
 First the user inputs a string
 Then, the string is split up and made a list using a .split() function.
