@@ -59,3 +59,72 @@ If it is it prints out that number with a statement that its not a prime number,
 using the "else" function, it is determined which number is a prime and is printed on the screen
 
 
+# Solution to problemm 6
+
+First the user inputs a string
+Then, the string is split up and made a list using a .split() function.
+After that a new list is created and every second word is being indexed [::2] ( :: - means from the begginig till the end and 2 means every second word from the list)
+Creating a new string using a "".join() function which joins the list into a string
+Print the string
+
+# Solution to problem 7
+
+Input a positive floating point number
+
+make an estimate of the value of square root of the number that we`re trying
+to find the square root of
+
+while loop that checks is the squared estimate whitin 0.1 of the actual number, if it is it sets the new value of estimate determined by Newton`s square root approximation 
+
+Prints the number using a formated string format
+
+# Solution to problem 8
+import time and datetime modules
+
+set todays date as d_date, using a .datetime.now() function
+
+Using a .strftime() function, convert datetime object into a string
+%A -full name of the day in a wekk
+%B - full name of the month
+%d - day in a month as a number
+%Y -year as a number
+%I -hour ( 12 hour time)
+%M - minutes
+%p - PM or AM
+
+# Solution to problem 9
+
+Open the file moby-dick.txt for reading and mark as "f"
+with open('moby-dick.txt', 'r') as f
+
+set counter to zero
+
+for line in f: -using a for lopp, loop through every line in the file and count +1 using a count +=1
+        if count % 2 == 0: 
+if the remainder of the division between count and 2 is 0 ( every other word)
+
+            print(line) 
+print line where the remainder is 0
+
+
+# Solution to problem 10
+
+ Importing matplotlib and numpy libraries
+
+ linspace function in numpy allows us to
+pick as many points we want in a certain range in this case that is a 100 points in a range from 0 to 4
+
+plotting the x, x^2 and 2^x and giving 
+them labels on the graph using a .plot() function in matplotlib
+
+using a .legend() function in matplotlib that displays the legend on the graph
+
+.show() in matplotlib shows (prints) the graph
+
+
+
+
+
+
+
+
